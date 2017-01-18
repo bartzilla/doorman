@@ -1,5 +1,5 @@
 {
-  "name": "express-doorman",
+  "name": "doorman",
   "version": "1.0.0",
   "description": "Account manager for angular applications based on angular and passport",
   "main": "./index",
@@ -9,7 +9,7 @@
   "author": "Cipriano Sanchez",
   "license": "ISC",
   "dependencies": {
-    "cloneextend": "0.0.3",
+    "async": "^2.1.4",
     "express": "^4.14.0",
     "js-yaml": "^3.7.0",
     "lodash": "^4.17.4"
