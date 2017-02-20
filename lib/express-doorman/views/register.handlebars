@@ -1,15 +1,15 @@
 <h2 class="page-header">Register</h2>
 
-{{#each options.errors}}
+{{#each errors}}
     <div class="alert alert-danger">{{message}}</div>
 {{/each}}
 
 <form method="post">
-
-    {{#each options.formModel.fields}}
+    
+    {{#each formModel.fields}}
         <div class="form-group">
             <label>{{label}}</label>
-            <input class="form-control" placeholder="{{placeholder}}" name="{{name}}" value="{{value}}" type="text">
+            <input class="form-control" placeholder="{{placeholder}}" name="{{name}}" value="{{lookup../form name}}" type="text">
         </div>
     {{/each}}
 
