@@ -5,11 +5,11 @@
 {{/each}}
 
 <form method="post">
-    
+
     {{#each formModel.fields}}
         <div class="form-group">
             <label>{{label}}</label>
-            <input class="form-control" placeholder="{{placeholder}}" name="{{name}}" value="{{lookup../form name}}" type="text">
+            <input class="form-control" placeholder="{{placeholder}}" name="{{name}}" value="{{lookup../form name}}" type={{type}}>
         </div>
     {{/each}}
 
