@@ -3,7 +3,12 @@ var doorman = require('../index');
 
 var app = express();
 
-app.use(doorman.init(app, {website: false}));
+app.use(doorman.init(app, {
+  application: {
+    href: "58b96232a973bc951a1f6891"
+  },
+  website: true
+}));
 
 var port = 3000;
 app.on('doorman.ready', function(){
