@@ -7,7 +7,11 @@ app.use(doorman.init(app, {
   application: {
     href: "58b96232a973bc951a1f6891"
   },
-  website: true
+  web: {
+    register: {
+      enabled: true
+    }
+  }
 }));
 
 var port = 3000;
